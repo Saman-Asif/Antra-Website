@@ -17,7 +17,7 @@ const Navbar = () => {
          <div className='flex gap-4'>
             <button className='2xl:py-5 md:py-1 2xl:px-10 md:px-6 hidden md:block text-xl font-semibold rounded-full text-white bg-[#CAA05C]'>Get in Touch</button>
             <button className='text-white hover:bg-[#CAA05C] transition-colors duration-300 2xl:p-6 p-4 hidden xl:block rounded-full bg-[#7e7874] border border-[#96908c]'><Search size={18}/></button>
-            <button className='text-white p-4 hover:text-[#CAA05C] transition-colors duration-300 2xl:p-6 rounded-full bg-[#7c7874] border border-[#96908c]'><TextAlignJustify size={18}/></button>
+           <button className='text-white hover:bg-[#CAA05C] transition-colors duration-300 2xl:p-6 p-4 hidden xl:block rounded-full bg-[#7e7874] border border-[#96908c]'><TextAlignJustify size={18}/></button>
          </div>
       </div>
     </>
