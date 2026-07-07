@@ -1,5 +1,6 @@
 import { ArrowUpRight } from 'lucide-react';
 import React, { useEffect, useState } from 'react'
+import Home2 from '../components/Home2';
 
 const Home = () => {
   const images = [
@@ -17,6 +18,7 @@ const Home = () => {
     return () => clearInterval(interval)
   }, [])
   return (
+    <>
     <div className='w-full min-h-screen overflow-hidden lg:h-[1200px] xl:h-[1300px] relative bg-black flex justify-center flex-col'>
       {/*background images*/}
       {images.map((img, idx) => (
@@ -57,6 +59,8 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <Home2/>
+    </>
   )
 }
 export default Home
