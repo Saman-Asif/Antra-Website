@@ -1,6 +1,7 @@
 import { ArrowUpRight } from 'lucide-react';
 import React, { useEffect, useState } from 'react'
 import Home2 from '../components/Home2';
+import Home3 from '../components/Home3';
 
 const Home = () => {
   const images = [
@@ -35,7 +36,7 @@ const Home = () => {
             <span className='text-[#CAA05C]'>•</span> Fast and Reliable
           </span>
           {/*animated heading*/}
-          <h1 className='text-4xl lg:text-6xl md:text-5xl w-full xl:text-8xl font-bold leading-tight'>
+          <h1 className='text-4xl tracking-tight lg:text-6xl md:text-5xl w-full xl:text-9xl font-bold leading-tight'>
          The Art Of Stunning<br/> Interior Design
           </h1>
           <div className='xl:flex justify-between'>
@@ -60,6 +61,7 @@ const Home = () => {
       </div>
     </div>
     <Home2/>
+   <Home3/>
     </>
   )
 }
