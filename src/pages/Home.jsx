@@ -32,32 +32,32 @@ const Home = () => {
         />
       ))}
       {/*dark overlay to make text pop*/}
-      <div className='absolute xl:py-80 py-40 w-full h-full inset-0 bg-black/30 z-10 p-6'>
+      <div className='absolute xl:py-70 py-40 w-full h-full inset-0 bg-black/30 z-10 p-6'>
         {/*content overlay*/}
-        <div className='relative z- w-full flex flex-col text-white py-20'>
-          <span className="items-center w-fit inline-block uppercase justify-center text-md font-semibold tracking-wider text-white backdrop-blur-sm bg-transparent border border-white/80 rounded-full py-1.5 px-4 mb-6">
+        <div className='relative items-center justify-center md:items-start z-20 w-full flex flex-col text-white py-20'>
+          <span className="items-center w-fit inline-block uppercase justify-center text-xs font-semibold tracking-wider text-white backdrop-blur-sm bg-transparent border border-white/80 rounded-full py-1.5 px-4 mb-6">
             <span className='text-[#CAA05C]'>•</span> Fast and Reliable
           </span>
           {/*animated heading*/}
-          <h1 className='text-4xl tracking-tight lg:text-6xl md:text-5xl w-full xl:text-9xl font-bold leading-tight'>
+          <h1 className='text-4xl tracking-tight text-center md:text-start lg:text-6xl md:text-5xl w-full xl:text-8xl font-bold leading-tight'>
          The Art Of Stunning<br/> Interior Design
           </h1>
           <div className='xl:flex justify-between'>
             <div>
-          <p className='text-white md:text-md lg:text-xl xl:mt-20 xl:pl-34 max-w-md'>Whether it's your home, office, or a commercial project, we are always dedicated to bringing your vision to life.</p>
-          <div className='xl:pl-34'>
-           <button className='xl:py-5 flex items-center justify-center py-3 gap-3 xl:px-6 px-6 text-xl font-semibold rounded-full text-white xl:mt-20 bg-[#CAA05C] mt-6'>Take Counsel <ArrowUpRight/></button>
+          <p className='text-white md:text-md text-center md:text-start xl:mt-20 mt-3 xl:pl-34 max-w-md'>Whether it's your home, office, or a commercial project, we are always dedicated to bringing your vision to life.</p>
+          <div className='xl:pl-34 flex items-center justify-center md:items-start md:justify-start'>
+           <button className='xl:py-2.5 flex items-center justify-center py-2 gap-2 xl:px-4 px-4 text-md font-semibold rounded-full text-white border border-white xl:mt-20 mt-6'>Take Counsel<ArrowUpRight className='bg-[#CAA05C] rounded-full p-3 w-10 h-10'/></button>
            </div>
            </div>
            <div className='md:flex hidden flex-col md:flex-row gap-4 mt-6'>
-             <div className='w-90 p-12 h-full bg-transparent backdrop-blur-2xl rounded-xl'>
+             <div className='w-75 p-12 h-full bg-transparent backdrop-blur-2xl rounded-xl'>
             <h1 className='text-white text-5xl font-extrabold'>260+</h1>
-            <p className='text-2xl mt-4'>Successfull projects and counting</p>
-            <p className='text-2xl mt-24'>Tech Specifications</p>
-            <p className='text-2xl'>Design Project</p>
-            <p className='text-2xl'>3D Visualization</p>
+            <p className='text-md mt-4'>Successfull projects<br/> and counting</p>
+            <p className='text-md mt-16'>Tech Specifications</p>
+            <p className='text-md'>Design Project</p>
+            <p className='text-md'>3D Visualization</p>
             </div>
-            <img className='rounded-xl w-90 h-full' src="https://antra.ibthemespro.com/assets/img/images/slider-thumb-1.png" alt="" />
+            <img className='rounded-xl w-75 h-full' src="https://antra.ibthemespro.com/assets/img/images/slider-thumb-1.png" alt="" />
            </div>
            </div>
         </div>

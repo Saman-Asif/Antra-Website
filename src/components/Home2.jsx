@@ -26,27 +26,27 @@ const Home2 = () => {
   ]
   return (
     <>
-      <div className='bg-white min-h-screen xl:h-[1400px] px-8 xl:py-60 py-40  w-full'>
-        <div className='xl:flex justify-between hidden w-full'>
-          <div className='w-[30%]'>
-            <span className="items-center w-fit inline-block uppercase justify-center text-md font-semibold tracking-wider text-black backdrop-blur-sm bg-transparent border border-gray-300 rounded-full py-1.5 px-4 mb-6">
+      <div className='bg-white min-h-screen xl:h-[1100px] px-8 xl:py-40 py-16  w-full'>
+        <div className='xl:flex-row justify-between flex flex-col w-full'>
+          <div className='xl:w-[30%] w-full'>
+            <span className="items-center w-fit inline-block uppercase justify-center text-xs font-semibold tracking-wider text-black backdrop-blur-sm bg-transparent border border-gray-300 rounded-full py-1.5 px-4 mb-6">
               <span className='text-[#CAA05C]'>•</span> Who WE are
             </span>
           </div>
-          <div className='w-[70%] max-w-5xl'>
-            <h1 className='capitalize text-4xl lg:text-6xl md:text-5xl w-full xl:text-8xl font-bold leading-tighter tracking-tighter'>Experience<span className='text-[#CAA05C]'> the art of Interior </span>Design</h1>
-            <p  className='text-gray-700 mt-6 mb-12 md:text-md tracking-wide lg:text-xl max-w-2xl'>We specialize in transforming visions into reality.<br/>
+          <div className='xl:w-[70%] w-full max-w-5xl'>
+            <h1 className='capitalize text-3xl lg:text-5xl md:text-4xl w-full xl:text-7xl font-bold leading-tighter tracking-tighter'>Experience<span className='text-[#CAA05C]'> the art of Interior </span>Design</h1>
+            <p className='text-gray-700 mt-4 xl:mt-6 xl:mb-12 md:text-md tracking-wide lg:text-md max-w-xl'>We specialize in transforming visions into reality.<br/>
               Explore our portfolio of innovative architectural and interior design projects
               crafted with precision.
             </p>
           </div>
         </div>
-        <div className='grid grid-cols-1 mt-12 gap-4 md:grid-cols-2 2xl:grid-cols-4 xl:px-6 '>
+        <div className='grid grid-cols-1 mt-12 gap-4 md:grid-cols-2 xl:grid-cols-4 xl:px-4 '>
           {data.map((data, idx) => (
-            <div key={idx} className='w-full h-[600px] bg-white border rounded-3xl px-4 xl:px-12 py-14 shadow-2xl border-gray-50'>
+            <div key={idx} className='w-full h-[500px] bg-white border rounded-3xl px-4 xl:px-12 py-10 shadow-2xl border-gray-50'>
               <img src={data.img} alt="" />
-              <h1 className='text-4xl font-extrabold mt-6'>{data.h1}</h1>
-              <p className='text-gray-700 text-xl mt-12 xl:mt-30 border-t pt-12 border-gray-200'>{data.p}</p>
+              <h1 className='text-2xl font-extrabold mt-4'>{data.h1}</h1>
+              <p className='text-gray-700 text-md mt-16 border-t pt-12 border-gray-200'>{data.p}</p>
             </div>
           ))}
         </div>
