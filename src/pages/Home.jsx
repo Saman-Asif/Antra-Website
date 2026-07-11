@@ -8,8 +8,8 @@ import Home6 from '../components/Home6';
 
 const Home = () => {
   const images = [
+     "https://imagef2.promeai.pro/process/do/023aba0d512c53dce9324f18055781a0.webp?sourceUrl=/g/p/gallery/publish/2024/12/02/a98264a8f66245eeae933a838f57bbae.jpg&x-oss-process=image/resize,w_500,h_500/format,webp&sign=34b0858cc7f4a38f19a621312969bc20",
     "https://plus.unsplash.com/premium_photo-1689701843837-647ae31f90c3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDR8fHxlbnwwfHx8fHw%3D",
-    "https://imagef2.promeai.pro/process/do/023aba0d512c53dce9324f18055781a0.webp?sourceUrl=/g/p/gallery/publish/2024/12/02/a98264a8f66245eeae933a838f57bbae.jpg&x-oss-process=image/resize,w_500,h_500/format,webp&sign=34b0858cc7f4a38f19a621312969bc20",
   ];
   const [currentSlide, setCurrentSlide] = useState(0);
   const [animationKey, setAnimationKey] = useState(0);
@@ -44,7 +44,7 @@ const Home = () => {
           </h1>
           <div className='xl:flex justify-between'>
             <div>
-          <p className='text-white md:text-md text-center md:text-start xl:mt-20 mt-3 xl:pl-34 max-w-md'>Whether it's your home, office, or a commercial project, we are always dedicated to bringing your vision to life.</p>
+          <p className='text-white md:text-md text-center md:text-start xl:mt-20 mt-3 xl:pl-34 max-w-lg'>Whether it's your home, office, or a commercial project, we are always dedicated to bringing your vision to life.</p>
           <div className='xl:pl-34 flex items-center justify-center md:items-start md:justify-start'>
            <button className='xl:py-2.5 flex items-center justify-center py-2 gap-2 xl:px-4 px-4 text-md font-semibold rounded-full text-white border border-white xl:mt-20 mt-6'>Take Counsel<ArrowUpRight className='bg-[#CAA05C] rounded-full p-3 w-10 h-10'/></button>
            </div>

@@ -24,7 +24,7 @@ const Home5 = () => {
       </div>
     </div>
     <div className='w-full h-full'>
-      <img className='w-[50%] h-[60%]' src="https://antra.ibthemespro.com/assets/img/shapes/team-bg-shape-1.png" alt="" />
+      <img className='w-[40%] h-[50%]' src="https://antra.ibthemespro.com/assets/img/shapes/team-bg-shape-1.png" alt="" />
       </div>
       </>
   )

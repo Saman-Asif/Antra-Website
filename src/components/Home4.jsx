@@ -55,11 +55,11 @@ const Home4 = () => {
         </div>
         <div className='w-full h-full'>
          <img src="https://antra.ibthemespro.com/assets/img/images/counter-img-1.png" alt="" />
-          <span className="items-center w-fit inline-block uppercase justify-center text-md font-semibold tracking-wider text-black backdrop-blur-sm bg-transparent border border-gray-300 rounded-full py-1.5 px-4 mb-6">
+          <span className="items-center w-fit inline-block uppercase justify-center text-xs font-semibold tracking-wider text-black backdrop-blur-sm bg-transparent border border-gray-300 rounded-full py-1.5 px-4 mb-6">
               <span className='text-[#CAA05C]'>•</span> Who WE are
             </span>
-              <h1 className='capitalize text-4xl lg:text-6xl md:text-5xl w-full xl:text-7xl font-bold leading-tighter tracking-tighter'>Description<span className='text-[#CAA05C]'> Architecture process </span>for exceptional results.</h1>
-            <p  className='text-gray-700 mt-6 mb-12 md:text-md tracking-wide lg:text-xl max-w-2xl'>
+              <h1 className='capitalize text-3xl lg:text-5xl md:text-4xl w-full xl:text-6xl font-bold leading-tighter tracking-tighter'>Description<span className='text-[#CAA05C]'> Architecture process </span>for exceptional results.</h1>
+            <p  className='text-gray-700 mt-6 mb-12 md:text-md tracking-wide lg:text-md max-w-xl'>
                 Our process is alive - adapting, refining, and growing
 with your vision. Always.
 Like artists with a blank canvas, we transform rooms
